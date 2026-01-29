@@ -7,10 +7,10 @@ import { CallToAction } from "@/components/sections/CallToAction";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-brand-bg selection:bg-brand-accent selection:text-white">
+    <main className="min-h-screen bg-brand-bg selection:bg-brand-accent selection:text-white pb-20 lg:pb-0">
       
-      {/* SECTION 1: Hybrid Split Screen Hero (100vh) */}
-      <div className="flex flex-col-reverse lg:flex-row h-screen w-full relative">
+      {/* SECTION 1: Hybrid Split Screen Hero (100vh - Navbar) */}
+      <div className="flex flex-col-reverse lg:flex-row h-[calc(100vh-5rem)] w-full relative">
         {/* Left: Carousel Content */}
         <div className="w-full lg:w-1/2 h-1/2 lg:h-full relative z-10 bg-brand-bg flex items-center">
             <HeroCarousel />

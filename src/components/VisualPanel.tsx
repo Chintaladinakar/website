@@ -6,6 +6,12 @@ export function VisualPanel() {
       <div className="absolute inset-0 z-10 bg-gradient-to-t from-brand-bg/80 via-transparent to-transparent pointer-events-none" />
       
       {/* Video Background */}
+      {/* 
+          NOTE: Video Ratio Explanation
+          The video container is dynamic: it takes up 50% of the screen width and the full available height (minus the navigation bar).
+          On a standard 1920x1080 screen, the video area is roughly 960px x 1000px, which is almost a 1:1 (Square) ratio.
+          The video is set to `object-cover`, meaning it covers this entire area.
+      */}
       <video
         autoPlay
         muted
