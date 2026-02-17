@@ -19,10 +19,10 @@ const NAV_ITEMS = [
     label: "Capabilities",
     href: "#",
     children: [
-      { label: "Design", href: "/capabilities/design", description: "Innovative design solutions." },
-      { label: "Manufacturing", href: "/capabilities/manufacturing", description: "State-of-the-art production." },
+      { label: "Design", href: "/services/design", description: "Innovative design solutions." },
+      { label: "Manufacturing", href: "/services/manufacturing", description: "State-of-the-art production." },
       { label: "Sectors", href: "/capabilities/sectors", description: "Industries we serve." },
-      { label: "Quality", href: "/capabilities/quality", description: "Commitment to excellence." },
+      { label: "Quality", href: "/services/quality", description: "Commitment to excellence." },
       { label: "R&D", href: "/capabilities/rd", description: "Research and development." },
     ],
   },
@@ -38,6 +38,7 @@ const NAV_ITEMS = [
     label: "Contact Us",
     href: "#",
     children: [
+      { label: "Contact Us", href: "/#contact", description: "Get in touch with us." },
       { label: "Careers", href: "/contact/careers", description: "Join our team." },
       { label: "IR", href: "/contact/ir", description: "Investor relations." },
     ],

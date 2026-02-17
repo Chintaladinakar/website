@@ -4,23 +4,23 @@ import { Cpu, Layers, Microscope, Zap } from "lucide-react";
 const capabilities = [
   {
     icon: Layers,
-    title: "PCB Design & Layout",
-    desc: "Rigorous schematic capture and layout design focused on signal integrity, thermal management, and manufacturability (DFM)."
+    title: "Design Services",
+    desc: "Comprehensive design service with a range of simulations and analysis all through the product lifecycle to bring viable solutions."
   },
   {
     icon: Cpu,
-    title: "Precision Manufacturing",
-    desc: "High-layer count boards, flex-rigid PCBs, and HDI technology manufactured with automated precision."
+    title: "Manufacturing Services",
+    desc: "Specialized solutions developed within stipulated timeframes, rendering manufacturing services to industry-specific domains."
   },
   {
     icon: Microscope,
-    title: "Testing & QA",
-    desc: "Comprehensive testing including AOI, X-Ray inspection, and functional testing to meet IPC Class 3 standards."
+    title: "Quality & Reliability",
+    desc: "Thorough and rigid quality checks integrated from the beginning. We strictly adhere to customer specifications and market standards."
   },
   {
     icon: Zap,
-    title: "R&D Prototyping",
-    desc: "Agile prototyping services designed to iterate quickly without compromising on industrial-grade quality."
+    title: "Management",
+    desc: "Our tech expert team achieves projects with minimum risks, cost, and time. ISO 9001:2015 Quality Management System certified."
   }
 ];
 

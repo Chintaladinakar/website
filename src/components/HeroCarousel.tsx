@@ -6,19 +6,19 @@ import { FadeIn } from "@/components/ui/fade-in";
 
 const slides = [
   {
-    kicker: "Engineering Excellence",
-    title: "Precision PCB Manufacturing",
-    desc: "We design and manufacture high-reliability electronics for mission-critical industries. From rapid prototyping to volume production, we engineer trust into every layer."
+    kicker: "Values We Stand By",
+    title: "Think Smarter, Last Longer",
+    desc: "We provide turnkey solutions for product engineering services with cost-effective methods, redefining electronic manufacturing with an innovative approach."
   },
   {
-    kicker: "Advanced Technology",
-    title: "HDI & Flex-Rigid Solutions",
-    desc: "Pushing the boundaries of miniaturization and signal integrity. Our capabilities include high-layer count boards, microvias, and exotic materials for aerospace and defense."
+    kicker: "State-of-Art Technology",
+    title: "Innovative Product Engineering",
+    desc: "Our comprehensive domain knowledge and tailor-made engineering translate into innovative products that push the boundaries of technology."
   },
   {
-    kicker: "Quality Assurance",
-    title: "IPC Class 3 Standards",
-    desc: "Zero compromise on quality. Our 100% automated optical inspection and rigorous functional testing ensure your electronics perform perfectly in the harshest environments."
+    kicker: "Customized Solutions",
+    title: "Bespoke Systems Development",
+    desc: "We specialize in developing bespoke systems that fit customer specifications in Aerospace, Defence, Healthcare, IoT, and Industrial Electronics."
   }
 ];
 

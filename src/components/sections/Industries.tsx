@@ -1,7 +1,20 @@
 import { FadeIn } from "@/components/ui/fade-in";
 
-const industries = ["Automotive", "Industrial Automation", "Aerospace & Defense", "Medical Devices", "Telecom"];
-const standards = ["ISO 9001:2015", "IPC Class 2 & 3", "RoHS Compliant", "UL Certified"];
+const industries = [
+  "Aerospace", 
+  "Consumer Electronics", 
+  "Defence Systems", 
+  "Healthcare", 
+  "IoT", 
+  "Industrial Electronics", 
+  "Railways"
+];
+const standards = [
+  "ISO 9001:2015", 
+  "AS9100D", 
+  "Quality Management Certified", 
+  "Full Process Testing"
+];
 
 export function Industries() {
   return (

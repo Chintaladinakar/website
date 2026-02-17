@@ -31,8 +31,8 @@ export function VisualPanel() {
           <span className="text-brand-text-muted text-xs uppercase tracking-widest font-medium">Live Output</span>
         </div>
         <p className="text-white text-lg font-light tracking-wide">
-          Automated Optical Inspection (AOI)
-          <span className="block text-brand-text-muted text-sm mt-1">Line #4 • 98.6% Yield Efficiency</span>
+          Quality Management
+          <span className="block text-brand-text-muted text-sm mt-1">AS9100D & ISO 9001:2015 Certified</span>
         </p>
       </div>
     </div>
